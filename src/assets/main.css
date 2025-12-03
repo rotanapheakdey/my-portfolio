@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-:root {
-  /* This tells the browser: Use Inter for English, Battambang for Khmer */
-  font-family: 'Inter', 'Battambang', sans-serif;
+html, body, #app {
+  font-family: 'Inter', 'Battambang', sans-serif !important;
+}
+@theme {
+  --font-sans: 'Inter', 'Battambang', sans-serif;
 }
