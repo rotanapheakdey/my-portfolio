@@ -20,8 +20,8 @@ const closeMenu = () => {
     <div class="max-w-5xl mx-auto px-6 h-20 flex justify-between items-center">
 
       <RouterLink to="/" class="group flex items-center font-mono font-bold text-xl tracking-tight text-gray-900 hover:text-indigo-600 transition pr-2">
-        <span>{{ $t('name.first') }}</span>
-        <span class="max-w-0 group-hover:max-w-[200px] overflow-hidden transition-all duration-500 ease-linear whitespace-pre text-indigo-600">{{ $t('name.last') }}</span>
+        <span>rotana</span>
+        <span class="max-w-0 group-hover:max-w-[200px] overflow-hidden transition-all duration-500 ease-linear whitespace-pre text-indigo-600">&nbsp;pheakdey</span>
         <span class="animate-pulse text-indigo-600">_</span>
       </RouterLink>
 
