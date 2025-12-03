@@ -13,8 +13,12 @@ export const usePortfolioStore = defineStore('portfolio', {
 
       this.loading = true
       try {
-        // your specific sheet id
-        const sheetId = '1gDDwoK6_7JpULfF09HHNaKt9fcYhNrxEkD3PhbSiT_M'
+              // your specific sheet id
+              // Old line:
+        // const sheetId = '1gDDwoK6_7JpULfF09HHNaKt9fcYhNrxEkD3PhbSiT_M'
+
+        // New line:
+        const sheetId = import.meta.env.VITE_SHEET_ID
         const url = `https://opensheet.elk.sh/${sheetId}/Sheet1`
 
         const response = await axios.get(url)
