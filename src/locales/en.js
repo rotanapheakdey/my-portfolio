@@ -1,9 +1,7 @@
-// src/locales/en.js
 export default {
-  // New Name Keys
   name: {
-    first: 'Rotana',
-    last: ' Pheakdey' // (added space at start)
+    first: 'rotana',
+    last: ' pheakdey'
   },
   nav: {
     home: 'home',
@@ -18,16 +16,36 @@ export default {
     btn_contact: "contact me"
   },
   about: {
-    title: "about.",
-    p1: "my journey in tech started with a genuine curiosity for how things work on the web. i am an aspiring full-stack developer dedicated to building clean, functional applications.",
-    p2: "currently, i am fully focused on mastering the modern javascript stack, specifically sharpening my skills in vue 3, pinia, and tailwind css.",
-    p3: "based in cambodia, i am always looking for new challenges to solve. when i'm not coding, you can find me at the gym or grinding valorant.",
-    stack: "tech stack"
+    title: "about me.",
+    bio_title: "who i am.",
+
+    // Bio split for styling
+    bio_intro: "i started with a curiosity for how the web works, and now i build full-stack applications. i focus on the",
+    bio_logic: "logic",
+    bio_middle: "behind the backend and the",
+    bio_fluidity: "fluidity",
+    bio_end: "of the frontend.",
+
+    current_focus: "currently, i am mastering the modern javascript ecosystem to bridge the gap between complex data and clean user interfaces.",
+
+    status_title: "current status",
+    status_text: "open to work",
+    available: "available for hire",
+
+    stack_title: "my stack.",
+
+    offline_tag: "offline",
+    location_title: "based in phnom penh.",
+    hobby_text: "when i'm not coding, i'm focused on discipline at the gym or grinding pvp in where winds meet.",
+
+    // Terminal text
+    term_location: "location: cambodia",
+    term_hobby: "hobby: gym",
+    term_game: "game: where winds meet",
+    term_status: "status: grinding..."
   },
   projects: {
     title: "projects.",
-    loading: "loading data...",
-    view_code: "view code"
   },
   contact: {
     title: "get in touch.",
